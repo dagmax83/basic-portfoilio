@@ -1,16 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio / Dagoberto M Guerra</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+	<meta charset="UTF-8">
+	<title>Dagoberto M. Guerra / Contact</title>
+	<link rel="stylesheet" href="./assets/css/reset.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    
+
+	<header>
+		<div class="container">
+			<div class="name">
+				<div class="logo">Dagoberto M. Guerra</div>
+			</div>
+			<nav class="nav">
+				<ul>
+					<li><a href="index.html">About</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="#" class="active">Contact</a></li>
+				</ul>
+			</nav>
+		</div> <!-- .container -->
+	</header>
+	
+	<div class="content">
+		<!-- Main content -->
+		<div class="main">
+			<h1 class="page-title">Contact</h1>
+			<form action="#" class="contact">
+				<label for="name">Name</label>
+				<input type="text" name="name" id="name" placeholder="Jane Smith">
+				<label for="email">Email</label>
+				<input type="text" name="email" id="email" placeholder="example@gmail.com">
+				<label for="name">Message</label>
+				<textarea rows="10" cols="40" name="message" id="message"></textarea>
+				<input type="submit" value="Submit">
+			</form>
+			
+		</div> <!-- .main -->
+
+		<div class="sidebar">
+			<h2 class="sidebar-title">Connect with Me</h2>
+			<ul class="social">
+				<li><a href="https://github.com/dagmax83/"><img src="./assets/images/github.png" alt="GitHub"></a></li>
+				<li><a href="https://www.linkedin.com/in/dagoberto-guerra-9a6122114"><img src="./assets/images/linkedin.png" alt="LinkedIn"></a></li>
+				<!-- <li><a href="https://twitter.com/dagobertoMguerra"><img src="./assets/images/twitter.png" alt="Twitter"></a></li> -->
+			</ul>
+		</div> <!-- .sidebar -->
+		
+	</div> <!-- .content -->
+
+
+
+	<footer>
+		&copy; Copyright 2018 Dagoberto M. Guerra
+	</footer>
+
 </body>
 </html>
